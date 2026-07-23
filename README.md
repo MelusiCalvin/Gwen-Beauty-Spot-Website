@@ -22,7 +22,7 @@ Live Demo
 
 View the live project here:
 
-Live Website: (Add your GitHub Pages or hosted link here.)
+Live Website: Coming soon...
 
 Purpose
 
