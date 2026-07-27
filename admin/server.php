@@ -9,8 +9,12 @@ $email    = "";
 $errors = array(); 
 
 // connect to the database
+$DATABASE_HOST = getenv('DB_HOST');
+$DATABASE_USER = getenv('DB_USERNAME');
+$DATABASE_PASS = getenv('DB_PASSWORD');
+$DATABASE_NAME = getenv('DB_NAME');
 
-$db = mysqli_connect('localhost', 'root', '', 'ecommerce');
+$db = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
 
 // REGISTER USER
 
